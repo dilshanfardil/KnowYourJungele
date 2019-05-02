@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "395111101436",
+    "firebase_url": "https://knowyourjungle-239108.firebaseio.com",
+    "project_id": "knowyourjungle-239108",
+    "storage_bucket": "knowyourjungle-239108.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395111101436:android:e95d152c54bff940",
+        "android_client_info": {
+          "package_name": "lk.sayuru.knowyourjungle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395111101436-tr9glls8333q8pj7ra0ri84hadefh83o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.sayuru.knowyourjungle",
+            "certificate_hash": "c1077147fc266ae54c2f131822c40ec6e0515067"
+          }
+        },
+        {
+          "client_id": "395111101436-i2a446lrvk1t52g0pbd08c7qevhd2d9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJy9-94KRTq0kIYPXTuspgrcmQac7Qh6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395111101436-i2a446lrvk1t52g0pbd08c7qevhd2d9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
