@@ -9,235 +9,39 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtTemparature"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
-        android:layout_margin="10dp"
+        android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/weather_topic"
-        android:textColor="@color/common_google_signin_btn_text_dark_focused"
-        android:textSize="20sp" />
+        android:text="10"
+        android:textSize="30sp" />
 
-    <GridLayout
-        android:id="@+id/GridLayout1"
+    <TextView
+        android:id="@+id/txtPressure"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="8"
-        android:columnCount="2"
-        android:rowCount="2"
-        android:orientation="horizontal"
-        tools:context=".GridXMLActivity" >
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="10000 Pa"
+        android:textSize="30sp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_column="0"
-            android:layout_row="0"
-            android:orientation="horizontal">
+    <TextView
+        android:id="@+id/txtHumidity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="69 %"
+        android:textSize="30sp" />
 
-            <TextView
-                android:id="@+id/humidity"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/weather_topic"
-                android:textColor="@color/common_google_signin_btn_text_dark_focused"
-                android:textSize="20sp" />
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/humidityName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="@string/weather_topic"
-                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:id="@+id/humidityValue"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="0dp"
-                    android:layout_margin="10dp"
-                    android:gravity="center"
-                    android:text="@string/weather_topic"
-                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
-                    android:textSize="20sp" />
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_column="1"
-            android:layout_row="0"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/temperature"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:gravity="center"
-                android:text="@string/weather_topic"
-                android:textColor="@color/common_google_signin_btn_text_dark_focused"
-                android:textSize="20sp" />
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/temperatureName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="@string/temperature_topic"
-                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:id="@+id/temperatureValue"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="0dp"
-                    android:layout_margin="10dp"
-                    android:gravity="center"
-                    android:text="@string/weather_topic"
-                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
-                    android:textSize="20sp" />
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_column="0"
-            android:layout_row="1"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/rainfall"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:gravity="center"
-                android:text="@string/rainfall_topic"
-                android:textColor="@color/common_google_signin_btn_text_dark_focused"
-                android:textSize="20sp" />
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/rainfallName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="@string/weather_topic"
-                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:id="@+id/rainfallValue"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="0dp"
-                    android:layout_margin="10dp"
-                    android:gravity="center"
-                    android:text="99.9mm"
-                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
-                    android:textSize="20sp" />
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_column="1"
-            android:layout_row="1"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/pressure"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:gravity="center"
-                android:text="@string/Pressure_topic"
-                android:textColor="@color/common_google_signin_btn_text_dark_focused"
-                android:textSize="20sp" />
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/pressureName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="@string/Pressure_topic"
-                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:id="@+id/pressureValue"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="0dp"
-                    android:layout_margin="10dp"
-                    android:gravity="center"
-                    android:text="200 Pa"
-                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
-                    android:textSize="20sp" />
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-
-
-
-
-    </GridLayout>
-
-
-
-
+    <TextView
+        android:id="@+id/txtRainfall"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="1000 mm"
+        android:textSize="30sp" />
 
 </LinearLayout>

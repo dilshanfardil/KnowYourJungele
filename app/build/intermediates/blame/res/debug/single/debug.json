@@ -108,6 +108,10 @@
         "source": "C:\\Users\\rishi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\013f239bf4104b07bd5b024ef13aaaf4\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
+        "merged": "D:\\computer\\Avalanche\\Project\\NSBMProjects\\KnowYourJungle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_light_normal.xml.flat",
+        "source": "C:\\Users\\rishi\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-16.0.1.aar\\3d200324a8bb4ea76f032056882f240b\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
         "merged": "D:\\computer\\Avalanche\\Project\\NSBMProjects\\KnowYourJungle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\rishi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\013f239bf4104b07bd5b024ef13aaaf4\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
@@ -1092,6 +1096,10 @@
         "source": "C:\\Users\\rishi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\013f239bf4104b07bd5b024ef13aaaf4\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
+        "merged": "D:\\computer\\Avalanche\\Project\\NSBMProjects\\KnowYourJungle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "C:\\Users\\rishi\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-16.0.1.aar\\3d200324a8bb4ea76f032056882f240b\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
         "merged": "D:\\computer\\Avalanche\\Project\\NSBMProjects\\KnowYourJungle\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
         "source": "C:\\Users\\rishi\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\535509200973d95648fb218cea83c770\\res\\layout\\notification_template_media.xml"
     },
@@ -1226,6 +1234,10 @@
     {
         "merged": "D:\\computer\\Avalanche\\Project\\NSBMProjects\\KnowYourJungle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\rishi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\013f239bf4104b07bd5b024ef13aaaf4\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\computer\\Avalanche\\Project\\NSBMProjects\\KnowYourJungle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "C:\\Users\\rishi\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-16.0.1.aar\\3d200324a8bb4ea76f032056882f240b\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "D:\\computer\\Avalanche\\Project\\NSBMProjects\\KnowYourJungle\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_abc_screen_toolbar.xml.flat",

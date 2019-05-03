@@ -30,5 +30,7 @@
     <string name="rainfall_topic">Rainfall</string>
     <string name="Pressure_topic">Pressure</string>
 
+    <string name="default_web_client_id">395111101436-i2a446lrvk1t52g0pbd08c7qevhd2d9e.apps.googleusercontent.com</string>
+
 
 </resources>

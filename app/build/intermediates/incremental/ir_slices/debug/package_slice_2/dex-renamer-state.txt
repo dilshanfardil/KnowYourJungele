@@ -1,4 +1,4 @@
-#Thu May 02 15:00:08 IST 2019
+#Thu May 02 23:51:46 IST 2019
 base.0=D\:\\computer\\Avalanche\\Project\\NSBMProjects\\KnowYourJungle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
 path.0=classes.dex
 renamed.0=classes.dex
